@@ -6,6 +6,5 @@
 
 ***Issues***
 - SHELL Windows/Ubuntu shell file issue
-- ```tr -d "\r" <binarize_baseline.sh > a.tmp
- mv a.tmp binarize_baseline.sh 
+- ```tr -d "\r" <binarize_baseline.sh > a.tmp , mv a.tmp binarize_baseline.sh 
 ```
