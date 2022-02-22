@@ -8,4 +8,4 @@
 - SHELL Windows/Ubuntu shell file issue
 - ```tr -d "\r" <binarize_baseline.sh > a.tmp , mv a.tmp binarize_baseline.sh 
 ```
-https://github.com/pytorch/fairseq/blob/main/examples/translation/prepare-wmt14en2de.sh
+
