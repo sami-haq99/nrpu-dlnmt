@@ -5,3 +5,5 @@
   - Following command may be used to convert .sgm files into plaintext [ref](https://www.kaggle.com/nltkdata/wmt15-eval):
   - Example:
      ```sed -e 's/<[^>]*>//g; /^\s*$/d' newstest-2015.enru.src.en.sgm | head -n100 > newstest-2015-100sents.en-ru.src.en```
+  - Fairseq script for processing .sgml test sets 
+  ```https://github.com/pytorch/fairseq/blob/main/examples/translation/prepare-wmt14en2de.sh```
