@@ -7,4 +7,6 @@
 ***Issues***
 - SHELL Windows/Ubuntu shell file issue ``` tr -d "\r" <binarize_baseline.sh > a.tmp , mv a.tmp binarize_baseline.sh ```
 - unrecognized arguments: --min-lr 1e-09 => --stop-min-lr
+- inplace error [ref](https://github.com/pytorch/xla/issues/2369)
+- Cannot load model parameters from checkpoint mismatch error: keep the src and tgg dict same as baseline nmt model
 
