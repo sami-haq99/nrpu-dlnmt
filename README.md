@@ -11,3 +11,5 @@
 - Cannot load model parameters from checkpoint mismatch error: keep the src and tgg dict same as baseline nmt model
 - CUDA and Torch issue: tool old NVIDIA drivers [ref](https://pytorch.org/get-started/previous-versions/) ```pip install torch==1.8.1+cu101 torchvision==0.9.1+cu101 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html```
 - Pytorch multi-processing issue with multi-gpu environment set ```--num_worker = 0``` in train.py
+- RuntimeError: Subtraction, the `-` operator, with a bool tensor is not supported [ref](https://github.com/OpenNMT/OpenNMT-py/issues/1524) ```fairseq/models/transformer.py", line 359, in get_bert_embeddings
+    attention_mask=1. - bert_encoder_padding_mask)``` 
