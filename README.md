@@ -14,3 +14,4 @@
 - RuntimeError: Subtraction, the `-` operator, with a bool tensor is not supported [ref](https://github.com/OpenNMT/OpenNMT-py/issues/1524) ```fairseq/models/transformer.py", line 359, in get_bert_embeddings
     attention_mask=1. - bert_encoder_padding_mask)``` 
 - Can't import libble: copy libbleu.cpython-36m-x86_64-linux-gnu.so into ctx-bert-nmt folder scoring
+- Fairseq score.py error: [ref](https://github.com/pytorch/fairseq/issues/2460)
