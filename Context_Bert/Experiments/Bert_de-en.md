@@ -1,10 +1,11 @@
 # Context Aware Bert
-- **IWST'14**:
+**IWST'14 Experiments**:
 - IWST'14 test train and dev data used [link](http://dl.fbaipublicfiles.com/fairseq/data/iwslt14/de-en.tgz)
 - Doc-Level Data preparation with exisitng scripts [link](https://github.com/bert-nmt/ctx-bert-nmt)
 - Joint BPE 10000
-- 
--**Results**
+
+**Results**
+
 | Model | Context | Direction | BLEU | Checkpint|
 |-------|--------|---------|---------| -|
 | Transformer | - | En-De | 34.98| -|
