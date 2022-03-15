@@ -7,7 +7,7 @@
 **Results**
 
 | Model | Context | Direction | BLEU | Paper|Checkpint|
-|-------|--------|---------|---------| -|
+|-------|--------|---------|---------| -|-|
 | Transformer | - | De-En | 34.98| 35.08|-|
 | Bert_ctx | cur-prev-next | En-De | 35.51|36.11| -|
 | Transformer | cur-next | En-De | 35.49| 36.57|-|
