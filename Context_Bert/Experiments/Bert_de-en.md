@@ -10,8 +10,9 @@
 | Model | Context | Direction | BLEU | Paper|Checkpint|
 |-------|--------|---------|---------| -|-|
 | Transformer | - | De-En | 34.98| 35.08|-|
-| Bert_ctx | cur-prev-next | En-De | 35.51|36.11| -|
-| Transformer | cur-next | En-De | 35.49| 36.57|-|
+| Bert_ctx | cur-prev-next | De-En | 35.51|36.11| -|
+| Transformer | cur-next | De-En | 35.49| 36.57|-|
+| Transformer | prev-cur | De-En | -| -|-|
 | Transformer | 3-prev | En-De | 34.38| 36.51| -|
 | Transformer | curr-next from 3-prev | En-De | -| -|
 
