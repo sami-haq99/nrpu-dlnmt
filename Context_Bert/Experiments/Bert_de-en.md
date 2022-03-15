@@ -13,8 +13,8 @@
 | Bert_ctx | cur-prev-next | De-En | 35.51|36.11| -|
 | Transformer | cur-next | De-En | 35.49| 36.57|-|
 | Transformer | prev-cur | De-En | -| -|-|
-| Transformer | 3-prev | En-De | 34.38| 36.51| -|
-| Transformer | curr-next from 3-prev | En-De | -| -|
+| Transformer | 3-prev | De-En | 34.38| 36.51| -|
+| Transformer | curr-next from 3-prev | De-En | -| -|
 
 |Us  | Them |
 |----|-------|
