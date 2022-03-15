@@ -25,4 +25,5 @@
 **Next**
 - Specilized context information ``` '[CLS] {} [SEP] {} [SEP]'.format(' '.join(prevs), line)```
 - Train from pre-trained model
-- Separate BPE learn
+- Stop word removel from context 
+- En-De jobs
