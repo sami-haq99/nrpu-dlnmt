@@ -7,14 +7,14 @@
 
 **Results**
 
-| Model | Context | Direction | BLEU | Paper|Checkpint|
+| Model | Context | De-En | Paper(de-en) | En-De|Paper(en-de)|
 |-------|--------|---------|---------| -|-|
-| Transformer | - | De-En | 34.98| 35.08|-|
-| Bert_ctx_transformer | cur-prev-next | De-En | 35.51|36.11| -|
-| Bert_ctx_transformer | cur-next | De-En | 35.49| 36.57|-|
-| Bert_ctx_transformer | prev-cur | De-En | -| -|-|
-| Bert_ctx_transformer | 3-prev | De-En | 34.38| 36.51| -|
-| Bert_ctx_transformer | curr-next from 3-prev | De-En | -| -|
+| Transformer | - | 34.98 | 35.08| 28.71|28.51|
+| Bert_ctx_transformer | cur-prev-next | 35.51 | 36.11|-| -|
+| Bert_ctx_transformer | cur-next |  35.49 | 36.57| |-|
+| Bert_ctx_transformer | prev-cur | - | -| -|-|
+| Bert_ctx_transformer | 3-prev | 34.38 | 36.51| -| -|
+| Bert_ctx_transformer | curr-next from 3-prev | - | -| -|
 
 Score difference|Us  | Them |
 |-|----|-------|
