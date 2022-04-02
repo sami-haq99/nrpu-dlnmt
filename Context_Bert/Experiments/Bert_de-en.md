@@ -4,6 +4,8 @@
 - Doc-Level Data preparation with exisitng scripts [link](https://github.com/bert-nmt/ctx-bert-nmt)
 - Joint BPE 10000
 - Try When and Why is Document-level Context Useful in Neural Machine Translation? [link](https://aclanthology.org/D19-6503/)
+- 2-4-22: Sadaf: I am noticing, the lesser the context, better the results. Our results are taking us towards a study of BERT vs context. 
+- Kindly get the results for 1-prev and 1-next along with summary as context and only content words as context. 
 
 **Results**
 
