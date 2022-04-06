@@ -16,7 +16,7 @@
 | Bert_ctx_transformer | prev-cur-next | 35.51 | 36.84|29.53| 30.75|
 | Bert_ctx_transformer | cur-next |  35.49 | 36.57|29.80 |30.66|
 | Bert_ctx_transformer | 3-prev | 34.38 | 36.51| -| 30.75|
-| Bert_ctx_transformer | 1-prev | - |36.50| 29.63| 30.69|
+| Bert_ctx_transformer | 1-prev | 35.41 |36.50| 29.63| 30.69|
 
 Score difference|Us  | Them |
 |-|----|-------|
