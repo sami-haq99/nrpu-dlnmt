@@ -29,3 +29,4 @@ Score difference|Us  | Them |
 - Train from pre-trained model
 - Stop word removel from context 
 - En-De jobs
+- Joined Dictionary and Src Dst dictionary
