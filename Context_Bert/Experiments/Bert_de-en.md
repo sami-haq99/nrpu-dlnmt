@@ -4,7 +4,8 @@
 - Doc-Level Data preparation with exisitng scripts [link](https://github.com/bert-nmt/ctx-bert-nmt)
 - Joint BPE 10000
 - Try When and Why is Document-level Context Useful in Neural Machine Translation? [link](https://aclanthology.org/D19-6503/)
-- 2-4-22: Sadaf: I am noticing, the lesser the context, better the results. Our results are taking us towards a study of BERT vs context. 
+- 2-4-22: Sadaf: I am noticing, the lesser the context, better the results. Our results are taking us towards a study of BERT vs context.
+- 7-4-22: Sami: Yes, you were right, I have used Keyword extraction library to use only significat keywords as context, with this the size of context is reduced upto 60-70 % [Keyword Extractor] (https://github.com/LIAAD/yake). 
 - Kindly get the results for 1-prev and 1-next along with summary as context and only content words as context. 
 
 **Results**
@@ -17,6 +18,7 @@
 | Bert_ctx_transformer | cur-next |  35.49 | 36.57|29.80 |30.66|
 | Bert_ctx_transformer | 3-prev | 34.38 | 36.51| -| 30.75|
 | Bert_ctx_transformer | 1-prev | 35.41 |36.50| 29.63| 30.69|
+| Bert_ctx_transformer | 1-prev (keywords only) | 35.41 |NA| 29.63| NA|
 
 Score difference|Us  | Them |
 |-|----|-------|
