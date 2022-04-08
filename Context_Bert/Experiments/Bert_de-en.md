@@ -19,7 +19,7 @@
 | Bert_ctx_transformer | 3-prev | 34.38 | 36.51| -| 30.75|
 | Bert_ctx_transformer | 1-prev | 35.41 |36.50| 29.63| 30.69|
 | Bert_ctx_transformer | 1-prev (keywords) | - |NA| 30.10| NA|
-| Bert_ctx_transformer | prev-cur-next (keywords) | - |NA| 30.15| NA|
+| Bert_ctx_transformer | prev-cur-next (keywords) | - |NA| 30.31| NA|
 
 Score difference|Us  | Them |
 |-|----|-------|
