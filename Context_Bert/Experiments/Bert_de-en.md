@@ -6,6 +6,7 @@
 - Try When and Why is Document-level Context Useful in Neural Machine Translation? [link](https://aclanthology.org/D19-6503/)
 - 2-4-22: Sadaf: I am noticing, the lesser the context, better the results. Our results are taking us towards a study of BERT vs context.
 - 7-4-22: Sami: Yes, you were right, I have used Keyword extraction library to use only significat keywords as context, with this the size of context is reduced upto 60-70 % [Keyword Extractor] (https://github.com/LIAAD/yake). 
+- 8-4-22: We should not have trained from Test Best, train from Valid Best gives improvements.
 - Kindly get the results for 1-prev and 1-next along with summary as context and only content words as context. 
 
 **Results**
