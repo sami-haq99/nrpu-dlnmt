@@ -17,7 +17,7 @@
 | Bert_sent_transformer | - |36.07 | 36.11| 30.10|30.45|
 | Bert_ctx_transformer | prev-cur-next | 35.51 | 36.84|29.53| 30.75|
 | Bert_ctx_transformer | cur-next |  35.49 | 36.57|29.80 |30.66|
-| Bert_ctx_transformer | 3-prev | 34.72 | 36.51| -| 30.75|
+| Bert_ctx_transformer | 3-prev | 34.72 | 36.51| 29.16| 30.75|
 | Bert_ctx_transformer | 1-prev | 35.41 |36.50| 29.63| 30.69|
 | Bert_ctx_transformer | 1-prev (keywords) | - |NA| 30.10| NA|
 | Bert_ctx_transformer | prev-cur-next (keywords) | - |NA| 30.31| NA|
