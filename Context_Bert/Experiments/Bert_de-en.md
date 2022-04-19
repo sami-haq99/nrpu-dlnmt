@@ -37,5 +37,5 @@ Score difference|Us  | Them |
 - Stop word removel from context 
 - En-De jobs
 - Joined Dictionary and Src Dst dictionary
-- Text Summarization (https://betterprogramming.pub/extractive-text-summarization-using-spacy-in-python-88ab96d1fd97)(spacy)
-- Text Summarization using (https://medium.com/analytics-vidhya/text-summarization-using-spacy-ca4867c6b744)[spacy]
+- Text Summarization [link] (https://medium.com/analytics-vidhya/text-summarization-using-spacy-ca4867c6b744)
+- Text Summarization using [link] (https://medium.com/analytics-vidhya/text-summarization-using-spacy-ca4867c6b744)
