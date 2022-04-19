@@ -39,3 +39,4 @@ Score difference|Us  | Them |
 - Joined Dictionary and Src Dst dictionary
 - Text Summarization [link](https://medium.com/analytics-vidhya/text-summarization-using-spacy-ca4867c6b744)
 - Text Summarization using [link](https://medium.com/analytics-vidhya/text-summarization-using-spacy-ca4867c6b744)
+- Significane between two results [link](https://github.com/moses-smt/mosesdecoder/blob/master/scripts/analysis/bootstrap-hypothesis-difference-significance.pl)
