@@ -46,3 +46,5 @@ Score difference|Us  | Them |
 - remove stopwords before finding keywords
 - Experiment with keyoword using bigram and trigram
 - keywords from summary
+
+Next meeting: 10th May @9:30
