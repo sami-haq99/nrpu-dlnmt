@@ -21,7 +21,7 @@
 |M5| Bert_ctx_transformer | 3-prev | 34.72 | 36.51| 29.16| 30.75|
 |M6| Bert_ctx_transformer | 1-prev | 35.41 |36.50| 29.63| 30.69|
 |M2->M7| Bert_ctx_transformer | 1-prev (keywords) | 36.03* |NA| 30.10| NA|
-|M8| Bert_ctx_transformer | 1-prev (summarization) | - |NA| 29.76 |NA|
+|M8s| Bert_ctx_transformer | 1-prev (summarization) | - |NA| 29.76 |NA|
 |M9| Bert_ctx_transformer | prev-cur-next (keywords) | 35.83 |NA| 30.31| NA|
 
 *train from bert_sent instead of baseline_sent
@@ -29,7 +29,8 @@ Score difference|Us  | Them |
 |-|----|-------|
 |-|0.53  | 1.03|
 
-
+**Results Highlights
+- M8s: Not every sentence requires context results comparable with results with context in half the training time=>conclusion? 
 
 **Next**
 - Specilized context information ``` '[CLS] {} [SEP] {} [SEP]'.format(' '.join(prevs), line)```
@@ -40,3 +41,8 @@ Score difference|Us  | Them |
 - Text Summarization [link](https://medium.com/analytics-vidhya/text-summarization-using-spacy-ca4867c6b744)
 - Text Summarization using [link](https://medium.com/analytics-vidhya/text-summarization-using-spacy-ca4867c6b744)
 - Significane between two results [link](https://github.com/moses-smt/mosesdecoder/blob/master/scripts/analysis/bootstrap-hypothesis-difference-significance.pl)
+
+**26-04-22**
+- remove stopwords before finding keywords
+- Experiment with keyoword using bigram and trigram
+- keywords from summary
