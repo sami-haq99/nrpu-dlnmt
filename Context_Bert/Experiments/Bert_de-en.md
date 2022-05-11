@@ -24,7 +24,7 @@
 |M8s| Bert_ctx_transformer | 1-prev (summarization) | - |NA| 29.76 |NA|
 |M9| Bert_ctx_transformer | prev-cur-next (keywords) | 35.83 |NA| 30.31| NA|
 |M10| Bert_ctx_transformer | 1-prev (summrization) | - |NA| -| NA|
-|M11| Bert_ctx_transformer | 1-prev (keywords bi-gram) | - |NA| -| NA|
+|M11| Bert_ctx_transformer | 1-prev (keywords bi-gram) | - |NA|30.16| NA|
 
 *train from bert_sent instead of baseline_sent
 Score difference|Us  | Them |
