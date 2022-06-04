@@ -25,7 +25,7 @@
 |M9| Bert_ctx_transformer | prev-cur-next (keywords) | 35.83 |NA| 30.31| NA|
 |M11| Bert_ctx_transformer | 1-prev (keywords bi-gram) | 35.85 |NA|30.16| NA|
 |M11| Bert_ctx_transformer | 1-prev (keywords tri-gram) | 35.62 |NA|30.18| NA|
-|M11| Bert_ctx_transformer | (50% summarized-keywords) | 35.64 |NA|-| NA|
+|M11| Bert_ctx_transformer | (50% summarized-keywords) | 35.64 |NA|29.91| NA|
 |M11| Bert_ctx_transformer | keywords-summary-fixed | -|NA|-| NA|
 
 *train from bert_sent instead of baseline_sent
