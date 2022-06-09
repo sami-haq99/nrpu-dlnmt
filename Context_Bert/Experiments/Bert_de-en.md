@@ -20,7 +20,7 @@
 |M4| Bert_ctx_transformer | cur-next |  35.49 | 36.57|29.80 |30.66|
 |M5| Bert_ctx_transformer | 3-prev | 34.72 | 36.51| 29.16| 30.75|
 |M6| Bert_ctx_transformer | 1-prev | 35.41 |36.50| 29.63| 30.69|
-|M2->M7| Bert_ctx_transformer | 1-prev (keywords) | 36.03* |NA| 30.10| NA|
+|M2->M7| Bert_ctx_transformer | 1-prev (keywords) | 36.03* |NA| 30.10**| NA|
 |M8s| Bert_ctx_transformer | 1-prev (summarization) | 35.32 |NA| 29.76 |NA|
 |M9| Bert_ctx_transformer | prev-cur-next (keywords) | 35.83 |NA| 30.31| NA|
 |M11| Bert_ctx_transformer | 1-prev (keywords bi-gram) | 35.85 |NA|30.16| NA|
@@ -29,6 +29,7 @@
 |M11| Bert_ctx_transformer | keywords-summary-fixed | -|NA|-| NA|
 
 *train from bert_sent instead of baseline_sent
+*no significant improvements when trained from M2
 Score difference|Us  | Them |
 |-|----|-------|
 |-|0.53  | 1.03|
