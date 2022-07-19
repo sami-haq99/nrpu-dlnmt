@@ -6,5 +6,6 @@
 - Benchmark: The testsets used to benchmark pakNMT can be found here
 - Links: 
 - Publications:
-- Examples:  [indicTrans]([https://github.com/pytorch/fairseq/issues/2460](https://github.com/AI4Bharat/indicTrans))
+- Examples:  [indicTrans](https://github.com/AI4Bharat/indicTrans)
 - [samantar](https://indicnlp.ai4bharat.org/samanantar/)
+- [hugginface sapces](https://huggingface.co/spaces/Harveenchadha/en_to_indic_translation)
