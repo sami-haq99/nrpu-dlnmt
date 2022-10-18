@@ -17,3 +17,4 @@
     attention_mask=1. - bert_encoder_padding_mask)``` 
 - Can't import libble: copy libbleu.cpython-36m-x86_64-linux-gnu.so into ctx-bert-nmt folder scoring
 - Fairseq score.py error: [ref](https://github.com/pytorch/fairseq/issues/2460)
+- UTF conversions https://www.tecmint.com/convert-files-to-utf-8-encoding-in-linux/
