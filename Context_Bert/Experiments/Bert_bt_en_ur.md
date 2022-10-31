@@ -16,5 +16,5 @@
 |M3| Bert_ctx_transformer | prev-cur-next | 35.51 | -|29.53| -|
 |M4| Bert_ctx_transformer | cur-next |  35.49 | 47.35|29.80 |54.23|
 |M5| Bert_ctx_transformer | 3-prev | 34.72 | -| 29.16| -|
-|M6| Bert_ctx_transformer | 1-prev | 35.41 |3-| 29.63| -|
+|M6| Bert_ctx_transformer | 1-prev | 35.41 |-| 29.63| -|
 
